@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4aa32c57-7d41-43cb-98ea-051641ee0404" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/B1 Grading/report-Shayan105.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/github/se/bootcamp/ui/GreetingTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/github/se/bootcamp/ui/authentication/LoginTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/github/se/bootcamp/ui/overview/AddToDoScreenDropDownLocationTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/github/se/bootcamp/ui/overview/AddToDoScreenTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/github/se/bootcamp/ui/overview/EditToDoScreenTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/github/se/bootcamp/ui/overview/OverviewScreenTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/fileMap.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/model/map/Location.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/model/map/LocationRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/model/map/LocationViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/model/map/NominatimLocationRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/model/todo/ListToDosViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/model/todo/ToDo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/model/todo/ToDosRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/model/todo/ToDosRepositoryFirestore.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/sigchecks/AddToDosSignatureChecks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/sigchecks/EditToDosSignatureChecks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/sigchecks/MapSignatureChecks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/sigchecks/ViewToDosSignatureChecks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/ui/Greeting.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/ui/authentification/Signin.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/ui/map/Map.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/ui/navigation/BottomNavigationMenu.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/ui/navigation/NavigationActions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/ui/overview/AddToDo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/ui/overview/EditToDo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/ui/overview/Overview.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/se/bootcamp/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/app_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/google_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/github/se/bootcamp/model/map/LocationViewModelTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/github/se/bootcamp/model/map/NominatimRepositoryTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/github/se/bootcamp/model/todo/ListToDosViewModelTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/github/se/bootcamp/model/todo/ToDosRepositoryFirestoreTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/github/se/bootcamp/ui/navigation/NavigationActionsTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/resources/robolectric.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Theory.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/B3-AdvancedFeatures.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/Deliverables.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/Setup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/UserStories/1-SignInAndLogin.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/UserStories/2-AddATodo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/UserStories/3-ListOfTodos.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/UserStories/4-EditATodo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/UserStories/5-LocationBasedTodos.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/UserStories/UserStory.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/sigcheck/AddToDosSignatureChecks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/sigcheck/EditToDosSignatureChecks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/sigcheck/MapSignatureChecks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/sigcheck/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/sigcheck/ViewToDosSignatureChecks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/androidTest/java/com/github/se/bootcamp/GreetingTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/androidTest/java/com/github/se/bootcamp/ui/authentication/LoginTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/java/com/github/se/bootcamp/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/java/com/github/se/bootcamp/ui/Greeting.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/java/com/github/se/bootcamp/ui/authentication/SignIn.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/java/com/github/se/bootcamp/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/java/com/github/se/bootcamp/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/java/com/github/se/bootcamp/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/drawable/app_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/drawable/google_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/app/src/test/resources/robolectric.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b1/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/androidTest/java/com/github/se/bootcamp/ui/GreetingTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/androidTest/java/com/github/se/bootcamp/ui/authentication/LoginTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/androidTest/java/com/github/se/bootcamp/ui/overview/AddToDoScreenTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/androidTest/java/com/github/se/bootcamp/ui/overview/EditToDoScreenTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/androidTest/java/com/github/se/bootcamp/ui/overview/OverviewScreenTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/model/map/Location.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/model/todo/ListToDosViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/model/todo/ToDo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/model/todo/ToDosRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/model/todo/ToDosRepositoryFirestore.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/sigchecks/AddToDosSignatureChecks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/sigchecks/EditToDosSignatureChecks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/sigchecks/ViewToDosSignatureChecks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/ui/Greeting.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/ui/authentication/SignIn.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/java/com/github/se/bootcamp/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/drawable/app_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/drawable/google_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/test/java/com/github/se/bootcamp/model/todo/ListToDosViewModelTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/test/java/com/github/se/bootcamp/model/todo/ToDosRepositoryFirestoreTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/test/java/com/github/se/bootcamp/ui/navigation/NavigationActionsTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/app/src/test/resources/robolectric.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/solutions/b2/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/tests/AddToDoScreenTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/tests/EditToDoScreenTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/tests/GreetingTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/tests/ListToDosViewModelTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/tests/LoginTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/tests/NavigationActionsTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/tests/OverviewScreenTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ToDoApp/tests/ToDosRepositoryFirestoreTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Tutorials/AndroidTesting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Tutorials/GoogleAuthentication.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Tutorials/GoogleFirestore.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Tutorials/Maps.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Tutorials/Navigation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Tutorials/UnitTesting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Tutorials/WebAPI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/1-SettingUpYourDevelopmentEnvironment/AndroidNewProjectSelection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/1-SettingUpYourDevelopmentEnvironment/AndroidViewsFileManager.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/1-SettingUpYourDevelopmentEnvironment/androidVersionSelection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/1-SettingUpYourDevelopmentEnvironment/howToInstallCopilotOnAndroidStudio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/1-SettingUpYourDevelopmentEnvironment/newProjectScreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/1-SettingUpYourDevelopmentEnvironment/sdkManagerFromMainUI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/1-SettingUpYourDevelopmentEnvironment/sdkManagerFromWelcomeUI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/2-AndroidGettingStarted/Greeting2.0VEmpty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/2-AndroidGettingStarted/Greeting2.0VFilled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/2-AndroidGettingStarted/KTFMTHowTo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/2-AndroidGettingStarted/displayAllGradleTasks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/2-AndroidGettingStarted/gradleSearch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/2-AndroidGettingStarted/scaffold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/3-SettingUpCI/Screenshot_20240908_172306.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/4-BuildingAnAPK/HowToBuildAnAPK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/4-BuildingAnAPK/HowToBuildAnAPKCMD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/AssignmentDescription_TheTODOApp/EditInputOverviewScreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/AssignmentDescription_TheTODOApp/FigmaDuplicateToYourDrafts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/AssignmentDescription_TheTODOApp/FigmaMoveDraft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/AssignmentDescription_TheTODOApp/FirebaseFireStoreCreateToDo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/AssignmentDescription_TheTODOApp/createANewTask.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/AssignmentDescription_TheTODOApp/createActivity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/AssignmentDescription_TheTODOApp/figmaPages.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/AssignmentDescription_TheTODOApp/inspectStyleFigma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Theory/MVVMSlide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Theory/dataModelExample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Theory/feature-branch-workflow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Theory/gmail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Theory/high-level-overview.excalidraw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Theory/interfaces.excalidraw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Theory/interfaces.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Theory/mvvm.excalidraw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Theory/mvvm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Theory/pr-lifecycle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Tutorials/Drawer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Tutorials/addAnApp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Tutorials/addFirestore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Tutorials/bootcamp-api-keys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Tutorials/creatingFirebaseAccount.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Tutorials/topLevelDestination.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/Tutorials/whereToPutGoogle-services-json.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/screen/AddToDoScreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/screen/AddToDoScreenDropdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/screen/AuthScreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/screen/EditToDoScreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/screen/EditToDoScreenDropdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/screen/MapScreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/screen/OverviewScreenEmpty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/screen/OverviewScreenFull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/properties.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userStories.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=2b99cadb1c027ece)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="bootcamp" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2mbYGejqrz9C115kkeuLzepaa1l" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.app.executor": "Run",
+    "Android Instrumented Tests.All Tests.executor": "Run",
+    "Android Instrumented Tests.LoginTest.executor": "Run",
+    "Android Instrumented Tests.MyComposeEspressoTest.executor": "Run",
+    "Android Instrumented Tests.NavigationActionsTest.executor": "Run",
+    "Android Instrumented Tests.testMyComposableWithEspresso() (1).executor": "Run",
+    "Android Instrumented Tests.testMyComposableWithEspresso().executor": "Run",
+    "Android Instrumented Tests.testMyComposableWithEspressoEdit().executor": "Run",
+    "Gradle.LocationViewModelTest.executor": "Run",
+    "Gradle.LocationViewModelTest.test locationVIewModel returns correct list of location.executor": "Run",
+    "Gradle.NominatimRepositoryTest.executor": "Run",
+    "Gradle.NominatimRepositoryTest.parse valid json should return correct locations.executor": "Run",
+    "Gradle.NominatimRepositoryTest.repository should call parseJsonNominatim and return correct locations.executor": "Run",
+    "Gradle.Tests in 'bootcamp.app.unitTest'.executor": "Run",
+    "Gradle.bootcamp-f24-Shayan105 [check].executor": "Run",
+    "Gradle.bootcamp-f24-Shayan105 [connectCheck].executor": "Run",
+    "Gradle.bootcamp-f24-Shayan105 [jacocoTestReport].executor": "Run",
+    "Gradle.bootcamp-f24-Shayan105 [ktfmtFormat].executor": "Run",
+    "Gradle.bootcamp-f24-Shayan105 [test jacocoTestReport].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/shayanlinux/Documents/GitHub/TestCI",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
+  },
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "/home/shayanlinux/.gradle"
+    ]
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle  check" />
+      <command value="gradle test jacocoTestReport" />
+      <command value="gradle connectCheck" />
+      <command value="gradle jacocoTestReport" />
+      <command value="gradle ktfmtFormat" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.Tests in 'bootcamp.app.unitTest'">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="bootcamp.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testMyComposableWithEspressoEdit()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="bootcamp.app.androidTest" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="testMyComposableWithEspressoEdit" />
+      <option name="CLASS_NAME" value="com.github.se.bootcamp.ui.overview.AddToDoScreenDropDownLocationTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_NAME_REGEX" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="RETENTION_ENABLED" value="No" />
+      <option name="RETENTION_MAX_SNAPSHOTS" value="2" />
+      <option name="RETENTION_COMPRESS_SNAPSHOTS" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in 'bootcamp.app.unitTest'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:testDebugUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="bootcamp-f24-Shayan105 [connectCheck]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="connectCheck" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="bootcamp-f24-Shayan105 [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jacocoTestReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="bootcamp-f24-Shayan105 [ktfmtFormat]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="ktfmtFormat" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'bootcamp.app.unitTest'" />
+        <item itemvalue="Gradle.bootcamp-f24-Shayan105 [jacocoTestReport]" />
+        <item itemvalue="Android Instrumented Tests.testMyComposableWithEspressoEdit()" />
+        <item itemvalue="Gradle.bootcamp-f24-Shayan105 [connectCheck]" />
+        <item itemvalue="Gradle.bootcamp-f24-Shayan105 [ktfmtFormat]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4aa32c57-7d41-43cb-98ea-051641ee0404" name="Changes" comment="" />
+      <created>1727346652067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727346652067</updated>
+    </task>
+    <servers />
+  </component>
+</project>
