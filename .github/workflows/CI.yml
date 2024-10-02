@@ -1,4 +1,4 @@
-name: CITester
+name: Bootcamp CI - Test Runner
 
 # Run the workflow when commits are pushed on main or when a PR is modified
 on:
@@ -16,7 +16,8 @@ jobs:
   bootcamp-ci:
     name: CI-Bootcamp
     # Execute the CI on the course's runners
-    runs-on: ubuntu-latest
+    runs-on:
+      group: runners_v1
 
     env:
       app_name: BootcampDebug
@@ -40,11 +41,11 @@ jobs:
       # Kernel-based Virtual Machine (KVM) is an open source virtualization technology built into Linux. Enabling it allows the Android emulator to run faster.
       #
       # For the bootcamp, the runners already have KVM enabled, so this step is commented out. But for your projects, you will need to uncomment it.
-      - name: Enable KVM group perms
-        run: |
-          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
-          sudo udevadm control --reload-rules
-          sudo udevadm trigger --name-match=kvm
+      #- name: Enable KVM group perms
+      #  run: |
+      #    echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+      #    sudo udevadm control --reload-rules
+      #    sudo udevadm trigger --name-match=kvm
 
       - name: Setup JDK
         uses: actions/setup-java@v3
@@ -79,7 +80,7 @@ jobs:
           chmod +x ./gradlew
 
       # Remove the "#" if you want to enforce the formatting check when pushing on your repo
-      - name: KTFmt Check
+      #- name: KTFmt Check
       #  run: |
       #    # To run the CI with debug informations, add --info
       #    ./gradlew ktfmtCheck
@@ -98,7 +99,7 @@ jobs:
       - name: Run instrumentation tests
         # This action assumes that Android sdk is already present inthe runner. Which is true for the bootcamp, but won't be for your own project.
         # If you want to use this CI for your project, replace the following line with: uses: reactivecircus/android-emulator-runner@v2
-        uses: reactivecircus/android-emulator-runner@v2
+        uses: RandyLutcavich/android-emulator-runner-without-sdk-setup@v1.0.3
         with:
           api-level: 34
           target: google_apis
