@@ -16,8 +16,7 @@ jobs:
   bootcamp-ci:
     name: CI-Bootcamp
     # Execute the CI on the course's runners
-    runs-on:
-      group: ubuntu-latest
+    runs-on: ubuntu-latest
 
     env:
       app_name: BootcampDebug
