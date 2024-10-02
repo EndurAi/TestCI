@@ -1,3 +1,0 @@
-As a new user, I want to add time alarm some to to-do activities so that I will no forget to do important part of the to-do list.
-As a user, I want to create a hierarchy of activities so that I can easily see which activities should be done first.
-
